@@ -1,1 +1,18 @@
+## requirements.txt
+fastapi
+uvicorn
+python-dotenv
+streamlit
+pytest
+requests
+pydantic
+
+# model + data
+transformers
+torch
+
+# optional integrations
+chromadb
+faiss-cpu
+loguru
 
