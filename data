@@ -1,4 +1,14 @@
-data/
-├── audio_samples/
-├── image_samples/
-└── text_samples/
+Carolina-Bandwidth/
+└── data/
+    ├── audio_samples/
+    │   └── hello_world.wav
+    ├── image_samples/
+    └── text_samples/
+
+{
+  "file_path": "data/audio_samples/hello_world.wav"
+}
+
+curl -X POST http://localhost:8000/audio \
+-H "Content-Type: application/json" \
+-d '{"file_path": "data/audio_samples/hello_world.wav"}'
