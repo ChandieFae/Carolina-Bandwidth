@@ -1,0 +1,7 @@
+orchestration/
+├── scheduler.py       # Task definitions (e.g., Celery, Ray)
+├── workers.py         # Processing workers
+└── tasks/
+    ├── preprocess.py
+    ├── embed.py
+    └── summarize.py
