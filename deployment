@@ -1,0 +1,6 @@
+deployment/
+├── Dockerfile.dev
+├── helm/               # Kubernetes Helm charts
+├── terraform/          # Infra-as-code if cloud scaling
+└── ci/
+    └── github-actions.yml
