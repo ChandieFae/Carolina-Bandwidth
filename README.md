@@ -1,4 +1,3 @@
-# 2025 Chandra Brown 
 # Carolina Bandwidth 🚀
 
 **The AI Processing Supernode**
