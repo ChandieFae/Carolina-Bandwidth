@@ -30,6 +30,9 @@
 - [ ] Add `.env` config loading
 - [ ] Add metrics endpoint for Prometheus
 - [ ] Add GPU/CPU system monitoring (Grafana)
+- [ ] Add vector DB support (e.g., FAISS, LanceDB, Chroma)
+- [ ] Integrate job queue UI with `st.dataframe()` in Streamlit
+- [ ] Add `requirements.txt` or `pyproject.toml` for full dependency control
 
 ## 🌍 Deployment
 - [ ] Deploy API on Render, Fly.io, or HuggingFace Spaces
