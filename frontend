@@ -1,0 +1,4 @@
+frontend/
+├── app.py            # Streamlit or Gradio entry point
+├── components/       # Reusable UI elements
+└── assets/           # Logos, themes, icons, etc.
