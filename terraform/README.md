@@ -1,3 +1,6 @@
+## [... existing code ...]
+
+
 ## terraform/README.md
 # 🌐 Carolina Bandwidth Cloud Deployment
 
@@ -115,4 +118,110 @@ ssh -i path/to/your-key.pem ubuntu@3.123.456.78
 ---
 
 For help, DM @ChandieFae or consult the Genius ✨  
-**Signature: CB & G – Chandra Brown & Genius**
+**Signature: CBNet – Carolina Bandwidth Network (also: Chandra Brown & the Genius)**
+
+---
+
+## 🚀 CBNet Protocol Vision – Scaling With the Universe
+
+> "No AI left behind. No data lost. No bandwidth too small."
+
+CBNet will evolve into a distributed AI transport system for edge-to-cloud intelligence. 
+
+### 💡 What’s Coming:
+
+- 🛰️ **CBNet Agents** – Lightweight AI runners for edge devices, drones, remote sensors
+- 🧠 **Adaptive Inference** – Bandwidth-aware job switching (offline/online/cloud)
+- 🔁 **Queued Sync Layer** – Offline-first storage that syncs when bandwidth returns
+- ⚡ **Multi-node Federation** – Models that collaborate across regions
+- 🔐 **CBNet Protocol Spec** – Open AI infrastructure standard (coming soon)
+
+**CBNet: A name. A mission. A movement. Scaling with the stars.**
+
+
+## docs/CBNet_Protocol_Spec.md
+# 📡 CBNet Protocol Specification
+
+The **CBNet Protocol** defines a modular, bandwidth-aware framework for distributed AI workloads. It supports scalable execution across devices, edge agents, cloud infrastructure, and offline/low-bandwidth scenarios.
+
+---
+
+## 🎯 Purpose
+
+To provide an open, fault-tolerant protocol for connecting AI models, data pipelines, and compute nodes with variable network constraints.
+
+---
+
+## 🧱 Architecture Overview
+
+**Nodes:**
+- **Edge Agent**: Local device running a lightweight AI job engine
+- **Core Hub**: Central API or orchestrator (e.g. FastAPI server)
+- **Cloud Worker**: Remote server or GPU instance
+
+**Message Types:**
+- Job Request (JSON)
+- Job Result
+- Sync Queue Entry
+- Telemetry / Heartbeat
+
+---
+
+## 🔄 Core Modules
+
+| Module | Role |
+|--------|------|
+| `CBAgent` | Edge job executor and queue manager |
+| `CBQueue` | Local-first buffer for delayed sync |
+| `CBRouter` | Directs jobs to local/cloud based on availability |
+| `CBTransport` | API + serialization for job/result handling |
+| `CBMonitor` | Tracks performance and connectivity |
+
+---
+
+## 📦 Job Lifecycle
+
+1. **Create** → Data/job appears on an edge node
+2. **Queue** → Added to CBQueue if offline
+3. **Process** → Run locally if model available
+4. **Sync** → If online, send result to Core Hub
+
+---
+
+## 📡 Transport Layer
+
+- All messages use signed JSON over HTTPS
+- Async fallback supported via job receipts and polling
+- Optional gRPC for high-throughput clusters
+
+---
+
+## 🔐 Security
+
+- Token-authenticated requests
+- Data-at-rest encryption for queues
+- TLS for all endpoints
+
+---
+
+## 🧩 Extensibility
+
+- Add support for video, vision, embeddings
+- Pluggable job types (e.g., transcription, summarization)
+- Queue persistence (SQLite, Redis, S3)
+
+---
+
+## 🛠️ Next Steps
+
+- Define schema for CBJob and CBResult
+- Implement base agent + queue modules
+- Write reference orchestrator in FastAPI
+- Launch open repo: `cbnet-protocol`
+
+---
+
+_ Carolina Bandwidth Last updated by CBNet Engineering — v0.1-alpha_
+
+
+**Signature: CB – Chandra Brown 
