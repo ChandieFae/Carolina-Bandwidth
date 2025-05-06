@@ -1,6 +1,3 @@
-## [... existing code ...]
-
-
 ## terraform/README.md
 # 🌐 Carolina Bandwidth Cloud Deployment
 
