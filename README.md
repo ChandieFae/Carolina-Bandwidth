@@ -15,3 +15,5 @@ This project is the foundation of an extensible, high-throughput system designed
 - FastAPI
 - Docker + Compose
 - PyTorch / HuggingFace / OpenAI / Whisper
+
+- For more info contact Chandra Brown at https://www.chandie29@gmail.com
